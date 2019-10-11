@@ -1,0 +1,284 @@
+.navbar {
+  background-color: #004085;
+}
+.navbar .navbar-brand {
+  height: 92px;
+}
+.navbar .navbar-brand img {
+  height: 75px;
+  margin-left: 66px;
+}
+@media (max-width: 767.98px) {
+  .navbar .navbar-brand img {
+    height: 75px;
+    margin-left: 6px;
+  }
+}
+.navbar a {
+  color: #fff !important;
+}
+.navbar .nav-item a {
+  font-weight: bold;
+}
+@media (min-width: 1200px) {
+  .navbar .navbar-nav {
+    margin-left: 100px;
+    font-size: 24px;
+  }
+  .navbar .navbar-nav li {
+    margin-right: 15px;
+  }
+  .navbar .navbar-nav li.active {
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  .navbar .navbar-nav li.active a {
+    color: #004085 !important;
+  }
+  .navbar .navbar-text {
+    background-color: #007bff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 16px;
+  }
+}
+.navbar .navbar-text {
+  font-size: 17px;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav-height {
+  min-height: 92px;
+}
+
+.home-image {
+  background-image: url("../img/slider3.jpg");
+  height: 586px;
+  background-position: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-size: cover;
+}
+
+.section-one {
+  background-color: #eee;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 40px;
+  margin-bottom: 5px;
+  border: 2px solid #adb5bd;
+}
+.section-one .img-section-one {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section-one h2 {
+  margin-top: 27px;
+}
+
+.section-two {
+  background-color: #eee;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 40px;
+  margin-bottom: 5px;
+  border: 2px solid #adb5bd;
+}
+.section-two .img-section-two {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footer {
+  bottom: 0px;
+  width: 100%;
+  background-color: #004085;
+  height: 50px;
+  color: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.footer p {
+  display: inline;
+}
+.footer .contactEmailPhone {
+  display: inline;
+  position: absolute;
+  right: 151px;
+  margin-top: 5px;
+}
+.footer .contactEmailPhone p :first-of-type {
+  margin-right: 5px;
+}
+
+.map-masar {
+  width: 100%;
+  height: 500px;
+}
+
+.contact-form {
+  width: 1129px;
+  margin-top: 20px;
+  margin-left: 298px;
+}
+.contact-form h2 {
+  color: #eb6126;
+  font-weight: bold;
+}
+.contact-form .form-section {
+  background-color: #dee2e6;
+  border-radius: 12px;
+}
+.contact-form .form-section input, .contact-form .form-section textarea {
+  margin-top: 5px;
+}
+.contact-form .form-section input:first-of-type {
+  margin-top: 10px;
+}
+.contact-form .form-section textarea {
+  height: 185px;
+  resize: none;
+}
+.contact-form .details-section {
+  background-color: #dee2e6;
+  border-radius: 12px;
+  border-left: 16px solid #fff;
+  padding: 40px;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+.contact-form .details-section i {
+  font-size: 85px;
+  color: #eb6126;
+}
+.contact-form .details-section .content-details-phone {
+  margin-top: 40px;
+  position: relative;
+}
+.contact-form .details-section .content-details-phone span {
+  position: absolute;
+  left: 92px;
+  font-size: 20px;
+  color: #eb6126;
+  font-weight: bold;
+}
+.contact-form .details-section .content-details-phone a {
+  position: absolute;
+  top: 26px;
+  left: 91px;
+  font-size: 20px;
+  color: #eb6126;
+}
+.contact-form .details-section .content-details-email {
+  margin-top: 25px;
+  position: relative;
+}
+.contact-form .details-section .content-details-email span {
+  position: absolute;
+  left: 92px;
+  font-size: 20px;
+  color: #eb6126;
+  font-weight: bold;
+  top: 10px;
+}
+.contact-form .details-section .content-details-email a {
+  position: absolute;
+  top: 42px;
+  left: 91px;
+  font-size: 20px;
+  color: #eb6126;
+}
+.contact-form .details-section .content-details-social {
+  text-align: center;
+  margin-top: 22px;
+}
+.contact-form .details-section .content-details-social i {
+  font-size: 46px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.contact-form .details-section .content-details-social i.fa-facebook {
+  color: #4267b2;
+}
+.contact-form .details-section .content-details-social i.fa-instagram {
+  color: #231F20;
+}
+.contact-form .details-section .content-details-social i.fa-linkedin {
+  color: #0077B5;
+}
+
+@media (max-width: 1200px) {
+  .contact-form {
+    width: 93%;
+    margin: auto;
+  }
+  .contact-form .form-section {
+    margin-bottom: 12px;
+  }
+  .contact-form .details-section {
+    border-left: none;
+  }
+}
+.products {
+  margin: 50px;
+}
+.products input {
+  width: 50%;
+  margin: auto;
+  border: 2px solid #846767;
+  font-size: 20px;
+}
+@media (max-width: 767.98px) {
+  .products input {
+    width: 100%;
+  }
+}
+.products .product-content {
+  margin-top: 30px;
+}
+.products .product-content .product-parent {
+  background-color: #689272d4;
+  border-right: 3px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.products .product-content .product-parent i {
+  position: absolute;
+  right: 27px;
+  top: 12px;
+  cursor: pointer;
+  color: #dc3545;
+  font-size: 41px;
+}
+.products .product-content .product-parent p {
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .pagination-container nav {
+    width: 23%;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .pagination-container {
+    margin-left: 33px;
+  }
+}
+
+.pagination-links ul {
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

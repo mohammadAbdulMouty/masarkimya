@@ -1,0 +1,22 @@
+@media (min-width: 1200px) {
+  .navbar-nav {
+    margin-right: 0 !important;
+    font-size: 24px;
+  }
+  .navbar-nav li {
+    margin-right: 15px;
+  }
+
+  .navbar-text {
+    position: absolute;
+    left: 60px;
+  }
+}
+.contact-form {
+  margin-right: 298px;
+}
+.contact-form .details-section {
+  border-right: 16px solid #fff;
+}
+
+/*# sourceMappingURL=stylertl.css.map */

@@ -1,0 +1,35 @@
+.addproductContainer{
+    form{
+        font-size:20px;
+        input{
+            margin-top:10px;
+        }
+    }
+    
+}
+.editproductContainer{
+    font-size:20px;
+    h2{
+        margin-bottom: 30px;
+    }
+    .row{
+        margin-bottom: 30px;
+    }
+    .findpdfspan{
+        background-color: #31708f;
+        padding: 7px;
+        color: #fff;
+        margin-left: 10px;
+        border-radius: 10px;
+        border: 1px solid #428bca;
+    }
+    .delete-pdf{
+        margin-left: 10px;
+    }
+    .newpdfinput,.editpdfinput{
+        display: none;
+    }
+}
+.row-adduser{
+    margin-bottom: 10px;
+}

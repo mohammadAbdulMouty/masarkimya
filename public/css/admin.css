@@ -1,0 +1,36 @@
+.addproductContainer form {
+  font-size: 20px;
+}
+.addproductContainer form input {
+  margin-top: 10px;
+}
+
+.editproductContainer {
+  font-size: 20px;
+}
+.editproductContainer h2 {
+  margin-bottom: 30px;
+}
+.editproductContainer .row {
+  margin-bottom: 30px;
+}
+.editproductContainer .findpdfspan {
+  background-color: #31708f;
+  padding: 7px;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #428bca;
+}
+.editproductContainer .delete-pdf {
+  margin-left: 10px;
+}
+.editproductContainer .newpdfinput, .editproductContainer .editpdfinput {
+  display: none;
+}
+
+.row-adduser {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=admin.css.map */
